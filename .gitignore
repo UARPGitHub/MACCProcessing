@@ -1,1 +1,78 @@
+
+# =========================
+# MATLAB
+# =========================
+~$*.m
+*.m~
+**/hs_err_pid*.log
+**/*.asv
+**/*thunk_pcwin64*.*
+**/LibThunkFileHeader.m
+**/*.i
+**/*.mat
+**/*.mex*
+**/+DLL/**/*.mex*
+**/+DLL/**/TempFiles/*
+**/+DLL/**/ThunkFiles/*
+**/+DLL/**/MemFiles/*
+**/+UBase/+MexTools/*.mex*
+__TEST_DIARY\.txt
+*.pdb
+*.mltbx
+
+\+UToolbox/\+Test/Results/
+\+UToolbox/UToolboxExport.prj
+
+imgui.ini
+
+# =========================
+# Experimental Data
+# =========================
 *.h5
+*.hdf5
+
+# =========================
+# Windows & MacOS detritus
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Word/Excel temp files
+~$*.doc*
+~$*.xls*
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
+
+# VSCode
+\.vscode/
+
+# C, CPP, Visual Studio, Eclipse
+**/v16/*
+.vs/
+*.ilk
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
